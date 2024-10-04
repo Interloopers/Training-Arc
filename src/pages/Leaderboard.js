@@ -34,6 +34,8 @@ const Leaderboard = () => {
             <tr className="bg-blue-600 text-white">
               <th className="py-2 px-4 border">Rank</th>
               <th className="py-2 px-4 border">Name</th>
+              <th className="py-2 px-4 border">Time</th>
+              <th className="py-2 px-4 border">Efficiency</th>
               <th className="py-2 px-4 border">Points</th>
             </tr>
           </thead>
@@ -42,6 +44,8 @@ const Leaderboard = () => {
               <tr key={player.rank} className="hover:bg-blue-100">
                 <td className="py-2 px-4 border">{player.rank}</td>
                 <td className="py-2 px-4 border">{player.name}</td>
+                <td className="py-2 px-4 border">{player.time}</td>
+                <td className="py-2 px-4 border">{player.efficiency}</td>
                 <td className="py-2 px-4 border">{player.points}</td>
               </tr>
             ))}

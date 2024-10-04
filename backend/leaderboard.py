@@ -8,10 +8,10 @@ CORS(app)
 
 # Database configuration
 db_config = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': 'W7301@jqir#',
-    'database': 'interlopers'
+    'host': 'sql12.freesqldatabase.com',
+    'user': 'sql12735401',
+    'password': 'RDh4zLdkk2',
+    'database': 'sql12735401'
 }
 
 @app.route('/api/leaderboard', methods=['GET'])

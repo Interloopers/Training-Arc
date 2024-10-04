@@ -21,6 +21,7 @@ import L3Theory from './pages/theory/L3Theory';
 import L4Theory from './pages/theory/L4Theory';
 import L5Theory from './pages/theory/L5Theory';
 import L6Theory from './pages/theory/L6Theory';
+import MapPage from './pages/MapPage'; 
 
 
 function App() {
@@ -48,7 +49,7 @@ function App() {
         <Route path="/theory/L4Theory" element={<L4Theory />} />
         <Route path="/theory/L5Theory" element={<L5Theory />} />
         <Route path="/theory/L6Theory" element={<L6Theory />} />
-        
+        <Route path="/map" element={<MapPage />} /> 
       </Routes>
     </Router>
   );

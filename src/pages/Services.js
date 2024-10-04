@@ -14,7 +14,7 @@ function Services() {
             <div className="text-center mb-4">
               <img
                 src="https://source.unsplash.com/100x100/?camping,booking"
-                alt="Campground Booking"
+                alt=""
                 className="mx-auto rounded-full"
               />
             </div>

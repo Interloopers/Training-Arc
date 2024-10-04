@@ -21,20 +21,34 @@ def get_leaderboard():
         conn = mysql.connector.connect(**db_config)
         cursor = conn.cursor(dictionary=True)
 
-        # Query the leaderboard data
-        cursor.execute("SELECT id, name, player_points AS points FROM leaderboard ORDER BY player_points DESC")
+        # Query leaderboard data with necessary fields and rank based on time, efficiency, and player_points
+        cursor.execute("""
+            SELECT 
+                id, 
+                name, 
+                player_points AS points, 
+                time_factor AS time, 
+                efficiency_factor AS efficiency 
+            FROM leaderboard 
+            ORDER BY time_factor ASC, efficiency_factor DESC, player_points DESC
+        """)
         leaderboard_data = cursor.fetchall()
 
         # Close the cursor and connection
         cursor.close()
         conn.close()
 
+        # Add ranks to the data (based on the new order)
+        for idx, player in enumerate(leaderboard_data):
+            player['rank'] = idx + 1
+
         # Return the data as JSON
         return jsonify(leaderboard_data)
 
     except Error as e:
-        print(f"Error: {e}")  # Log the exact error
-        return jsonify({"error": "An error occurred while fetching the leaderboard data"}), 500
+        print(f"Database error: {e}")
+        return jsonify({"error": "Internal Server Error"}), 500
+
 
 if __name__ == '__main__':
     app.run(debug=True)

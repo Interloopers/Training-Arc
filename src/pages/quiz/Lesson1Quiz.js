@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Lesson1Quiz = () => {
   const questions = [
@@ -115,11 +116,12 @@ const Lesson1Quiz = () => {
             </p>
             <p className="text-xl mt-2">Your score: {score}/{questions.length} — You earned {score * 5} XP! 💪</p>
 
-            <a href="https://map-h9f1.onrender.com" target="_blank" rel="noopener noreferrer">
-              <button className="mt-6 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-300">
-                Accept the Challenge 🚴‍♂️
-              </button>
-            </a>
+
+            <Link to="/map">
+    <button className="mt-6 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-300">
+      Accept the Challenge 🚴‍♂️
+    </button>
+  </Link>
           </div>
         )}
       </div>

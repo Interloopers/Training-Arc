@@ -1,22 +1,24 @@
-// src/pages/Leaderboard.jsx
 import React, { useEffect, useState } from 'react';
 
 const Leaderboard = () => {
   const [leaderboardData, setLeaderboardData] = useState([]);
 
-  // Sample leaderboard data, replace with your actual data fetching logic
   const fetchLeaderboardData = async () => {
-    // Simulating an API call
-    const sampleData = [
-      { rank: 1, name: 'Alice', points: 120 },
-      { rank: 2, name: 'Bob', points: 100 },
-      { rank: 3, name: 'Charlie', points: 80 },
-      { rank: 4, name: 'David', points: 60 },
-      { rank: 5, name: 'Eve', points: 40 },
-    ];
-    // In a real scenario, replace the following line with your API call:
-    setLeaderboardData(sampleData);
+    try {
+      const response = await fetch('http://localhost:5000/api/leaderboard');
+  
+      if (!response.ok) {
+        throw new Error(`Error: ${response.status} ${response.statusText}`);
+      }
+  
+      const data = await response.json();
+      setLeaderboardData(data);
+  
+    } catch (error) {
+      console.error('Error fetching leaderboard data:', error);
+    }
   };
+  
 
   useEffect(() => {
     fetchLeaderboardData();

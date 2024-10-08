@@ -67,9 +67,9 @@ Welcome to **Delivery Training Platform** – a gamified learning app designed t
 ![Gameplay](./screenshots/reward.png)
 ### 🔟 Questes
 ![Gameplay](./screenshots/quest.png)
-### 4️⃣ Login
+### 11 Login
 ![Gameplay](./screenshots/location_testing.png)
-### 4️⃣ Signup
+### 12 Signup
 ![Gameplay](./screenshots/location_testing.png)
 
 ## 🕹️ **Installation**  

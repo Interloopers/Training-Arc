@@ -55,17 +55,17 @@ Welcome to **Delivery Training Platform** – a gamified learning app designed t
 ![Gameplay](./screenshots/lesson.png)  
 ### 4️⃣ Quiz
 ![Gameplay](./screenshots/quiz.png)  
-### 4️⃣ Quiz Completion Screen
+### 5️⃣ Quiz Completion Screen
 ![Gameplay](./screenshots/quiz_complete.png)  
-### 4️⃣ Live Map Location
+### 6️⃣ Live Map Location
 ![Gameplay](./screenshots/live_location.png)  
-### 4️⃣ Live Map Testing
+### 7️⃣ Live Map Testing
 ![Gameplay](./screenshots/location_testing.png)
-### 4️⃣ Leaderboard
+### 8️⃣ Leaderboard
 ![Gameplay](./screenshots/leaderboard.png)
-### 4️⃣ Rewards
+### 9️⃣ Rewards
 ![Gameplay](./screenshots/reward.png)
-### 4️⃣ Questes
+### 🔟 Questes
 ![Gameplay](./screenshots/quest.png)
 ### 4️⃣ Login
 ![Gameplay](./screenshots/location_testing.png)

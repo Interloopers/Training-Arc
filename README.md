@@ -75,6 +75,12 @@ Welcome to **Delivery Training Platform** – a gamified learning app designed t
 ## 🕹️ **Installation**  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/Interloopers/Bloodstained-Doofestien.git
+   git clone https://github.com/Interloopers/Training-Arc.git
 
-2. Run the main file:
+2. Run the command:
+   ```bash
+   npm run start
+
+3. Run the server file:
+   ```bash
+   run leaderboard.py

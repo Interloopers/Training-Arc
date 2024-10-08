@@ -60,7 +60,17 @@ Welcome to **Delivery Training Platform** – a gamified learning app designed t
 ### 4️⃣ Live Map Location
 ![Gameplay](./screenshots/live_location.png)  
 ### 4️⃣ Live Map Testing
-![Gameplay](./screenshots/location_testing.png)  
+![Gameplay](./screenshots/location_testing.png)
+### 4️⃣ Leaderboard
+![Gameplay](./screenshots/leaderboard.png)
+### 4️⃣ Rewards
+![Gameplay](./screenshots/reward.png)
+### 4️⃣ Questes
+![Gameplay](./screenshots/quest.png)
+### 4️⃣ Login
+![Gameplay](./screenshots/location_testing.png)
+### 4️⃣ Signup
+![Gameplay](./screenshots/location_testing.png)
 
 ## 🕹️ **Installation**  
 1. Clone the repository:  

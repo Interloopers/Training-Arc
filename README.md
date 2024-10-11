@@ -68,9 +68,9 @@ Welcome to **Delivery Training Platform** – a gamified learning website design
 ### 🔟 Questes
 ![Gameplay](./screenshots/quest.png)
 ### 11 Login
-![Gameplay](./screenshots/location_testing.png)
+![Gameplay](./screenshots/login.png)
 ### 12 Signup
-![Gameplay](./screenshots/location_testing.png)
+![Gameplay](./screenshots/signup.png)
 
 ## 🕹️ **Installation**  
 1. Clone the repository:  

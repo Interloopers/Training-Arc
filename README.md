@@ -1,6 +1,6 @@
-# 🚚 Delivery Training Platform
+# 🚚 Training Arc
 
-Welcome to **Delivery Training Platform** – a gamified learning website designed to train new delivery drivers to handle real-life challenges like bad weather, traffic, and more, all while keeping the learning process fun and engaging! 
+Welcome to **Training Arc** – a gamified learning website designed to train new delivery drivers to handle real-life challenges like bad weather, traffic, and more, all while keeping the learning process fun and engaging! 
 
 ---
 

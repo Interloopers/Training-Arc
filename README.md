@@ -41,10 +41,6 @@ Welcome to **Delivery Training Platform** – a gamified learning website design
 
 ---
 
-## 📜 **Credits**  
-- **Developers**: [@Shubham_Bendre](https://github.com/Shubham-Bendre), [@Malhar_Singh](https://github.com/Malhar2400), [@Yash_Chougule](https://github.com/YxASH), [@Suyog_Sable](https://github.com/Suyog_Sable)  
-- **Special Thanks**: To all the mentors and community for their support! 🎉
-
 ## 📸 **Screenshots**  
 
 ### 1️⃣ Home Page
@@ -71,6 +67,10 @@ Welcome to **Delivery Training Platform** – a gamified learning website design
 ![Gameplay](./screenshots/login.png)
 ### 12 Signup
 ![Gameplay](./screenshots/signup.png)
+
+## 📜 **Credits**  
+- **Developers**: [@Shubham_Bendre](https://github.com/Shubham-Bendre), [@Malhar_Singh](https://github.com/Malhar2400), [@Yash_Chougule](https://github.com/YxASH), [@Suyog_Sable](https://github.com/Suyog_Sable)  
+- **Special Thanks**: To all the mentors and community for their support! 🎉
 
 ## 🕹️ **Installation**  
 1. Clone the repository:  
